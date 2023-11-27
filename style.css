@@ -1,0 +1,326 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-color: white;
+}
+.apresentacao{
+    height: 670px;
+    background-image: url('./Image/Plano_de_Fundo/Frutas-Caindo.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.apresentacao-text{
+    margin-bottom: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.apresentacao-text .para-sobremim{
+    margin-bottom: -10px;
+    width: 80%;
+}
+.apresentacao .link-butao{
+    text-align: center;
+    width: 70%;
+    color: #00cc00;
+    background-color: white;
+}
+.apresentacao .link-butao:hover{
+    color: white;
+    background-color: #00cc00;
+}
+.cabecalho2{
+    height: 72px;
+}
+.cabecalho{
+    display: flex;
+    background: linear-gradient(68.15deg, #009933 0.1%, #004d1a 99%);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 2px 10px 1px black;
+}
+.Logo{
+    display: flex;
+    background: linear-gradient(68.15deg, #009933 0.1%, #004d1a 99%);
+    justify-content: space-around;
+    box-shadow: 0px 2px 10px 1px black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+html{
+    scroll-behavior: smooth;
+}
+.cabecalho-imagem{
+    height: 72px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 20px;
+}
+.cabecalho-menu-item{
+    padding: 14px;
+    transition: background-color 0.6s;
+    border-radius: 24px;
+}
+.cabecalho-menu-item:hover{
+    color: darkgreen;
+    background-color: white;
+}
+.segmentos{
+    height: 500px;
+
+}
+#Sobre-mim{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+#Rose{
+    width: 70%;
+    height: 300px;
+    border: 2px solid #004d1a;
+    border-radius: 50%;
+    margin-left: 130px;
+}
+.titulos{
+    font-family: 'Dancing Script', cursive;
+    color: #004d1a;
+    font-weight: 700;
+    margin-bottom: 0px;
+    
+}
+.titulos-sub{
+    font-family: 'DM Serif Display', serif;    
+    font-size: 40px;
+    color: #00cc00;
+    margin-top: 0px;
+}
+.Alinhando-Text{
+    width: 100%;
+    text-align: left;
+}
+.para-sobremim{
+    width: 80%;
+    color: #676767;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.text-sobremim{
+    margin-left: 100px;
+}
+strong{
+    color:#004d1a;
+}
+.text-especialidades h1{
+    color: white;
+    text-align: center;
+}
+#Atendimento{
+    background-color: #004d1a;
+    color: white;
+}
+.text-especialidades{
+    padding-top: 60px;
+    margin-top: 0px;
+    height: 420px;
+}
+.especializacoes{
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+.lista{
+    list-style-image: url('./Image/Icones/grafico-histograma32px.png');
+    font-size: 20px;
+}
+li{
+    margin-bottom: 10px;
+}
+.png-analise{
+    list-style-image: url('./Image/Icones/chart-histogram.png');
+}
+.png-reeducacao{
+    list-style-image: url('./Image/Icones/apple-whole.png');
+}
+.png-foco{
+    list-style-image: url('./Image/Icones/pesquisar-alt.png');
+}
+
+.png-online{
+    list-style-image: url('./Image/Icones/screen.png');
+}
+
+.png-funcional{
+    list-style-image: url('./Image/Icones/utensils.png');
+}
+
+.png-whatz{
+    list-style-image: url('./Image/Icones/circle-phone.png');
+}
+
+.png-obesidade{
+    list-style-image: url('./Image/Icones/hamburger.png');
+}
+
+.png-esportivo{
+    list-style-image: url('./Image/Icones/football.png');
+}
+
+#Consulta{
+    margin-left: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+#Consulta h1{
+    color: #004d1a;   
+    margin-right: 45px;
+    margin-top: 40px;
+    text-align: center;
+}
+#Consulta h2{
+    color: #004d1a;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;       
+}
+.link-butao{
+    color: white;
+    background-color: #00cc00;
+    padding: 20px;
+    transition: background-color 0.6s;
+    border-radius: 24px;
+}
+.link-butao:hover{
+    color: white;
+    background-color: #008000;
+}
+iframe{
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 888px){
+    #Rose{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        max-width: 50%;
+        height: 400px;
+    }
+    #Sobre-mim{
+        display: block;
+        height: 850px;
+    }
+    .text-sobremim{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .Alinhando-Text{
+        background-color: red;
+        width: 100%;
+    }
+    .para-sobremim{
+        width: 95%;
+    }
+    .localizacao{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 710px){
+    .apresentacao-text{
+        margin-left: 50px;
+        height: 400px;
+    }
+    #Rose{
+        max-width: 60%;
+        height: 400px;
+    }
+    #Sobre-mim{
+        height: 850px;
+    }
+    #Atendimento{
+        height: 750px;
+    }
+    .especializacoes{
+        margin-top: 60px;
+        margin-left: 20px;
+        display: block;
+    }
+    li{
+        margin-bottom: 30px;
+    }
+    .text-especialidades{
+        height: 520px;
+    }
+    #Consulta{
+        display: block;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    #Consulta h1{
+        margin-top: 90px;
+    }
+    .localizacao{
+        width: 250px;
+        height: 350px;
+    }
+    .Alinhando-Text{
+        background-color: blue;
+    }
+    iframe{
+        padding-bottom: 60px;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .apresentacao{
+        background-image: url('./Image/Plano_de_Fundo/Frutas-Caindo-maiscortada.jpg');
+    }
+    .apresentacao .link-butao{
+        width: 100px;
+    }
+    #Rose{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        max-width: 70%;
+        height: 350px;
+    }
+    #Sobre-mim{
+        height: 950px;
+    }
+    .Alinhando-Text{
+        background-color: white;
+    }
+    .especializacoes{
+        margin-top: 95px;
+        display: block;
+        gap: 0px;   
+    }
+    .text-especialidades{
+        height: 520px;
+    }
+    #Consulta{
+        display: block;
+        margin-left: 30px;
+    }
+    #Consulta h1{
+        margin-top: 50px;
+    }
+}
